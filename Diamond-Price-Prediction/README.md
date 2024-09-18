@@ -4,7 +4,7 @@
 
 Diamond_Price_Prediction is an open-source project that enables you to predict diamond prices based on various attributes. With advanced machine learning models and a user-friendly web application, this project provides a reliable solution for estimating diamond prices.
 
-![Diamond Image](https://wtamu.edu/~cbaird/sq/images/diamond_art.png)
+![Diamond Image](https://wallpapercave.com/wp/wp12444870.jpg)
 
 #### Table of Contents 
 
@@ -27,7 +27,7 @@ Welcome to Diamond_Price_Prediction! This project is designed to assist you in e
 
 We've introduced robust data ingestion and transformation components to preprocess raw data efficiently. This ensures data quality and reliability in our predictive models.
 
-![Data Transformation](https://www.getdbt.com/ui/img/blog/data_transformation.png)
+![Data Transformation](https://cms.intuji.com/wp-content/uploads/2022/07/Data-Transformation-Steps-V2.jpg)
 
 ### Advanced Machine Learning Models 🤖
 
@@ -41,7 +41,7 @@ We are thrilled to present our web-based user interface for easy input and predi
 - **Machine Learning Prediction:** The application uses a trained machine learning model to predict the price of the diamond based on the provided attributes.
 - **User-Friendly Interface:** The web app features an attractive and intuitive interface, making it easy for users to enter data and receive predictions.
 - **Background Image:** The app uses a captivating background image to enhance the visual appeal and engagement of users.
-
+predict
 ### Getting Started 🛠️
 
 The dataset used in the Diamond Price Prediction Web App project is a collection of diamond attributes and their corresponding prices. The dataset is utilized to train a machine learning model that can predict the price of a diamond based on its various characteristics. The dataset provides a valuable resource for understanding the relationships between diamond attributes and their market values.
@@ -65,7 +65,7 @@ The dataset used in the Diamond Price Prediction Web App project is a collection
 
 Before using this project, ensure you have the following prerequisites in place:
 
-- Python (3.7 or higher)
+- Python (3.8 or higher)
 - Required dependencies (install with `pip install -r requirements.txt`)
 - Access to a web browser 🌐
 
@@ -80,7 +80,7 @@ Before using this project, ensure you have the following prerequisites in place:
 ##### Step 1 - Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/Adi3042/Diamond-Price-Prediction.git
+git clone https://github.com/Sohrab789/Diamond_Price_Prediction.git
 cd Diamond-Price-Prediction
 ```
 
@@ -109,7 +109,7 @@ python application.py
 
 ##### Step 5 -
 
-1. Visit the web app. :- http://127.0.0.1:5000/
+1. Visit the web app. :- http://127.0.0.1:2789/
 2. Enter the attributes of the diamond in the input form.
 3. Click the "Predict" button.
 4. Receive the predicted price of the diamond.
