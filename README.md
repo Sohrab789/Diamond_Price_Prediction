@@ -16,7 +16,6 @@ Diamond_Price_Prediction is an open-source project that enables you to predict d
 - [Technologies Used](#technologies-used)
 - [Contributions](#contributions)
 
-
 ### Introduction 
 
 Welcome to Diamond_Price_Prediction! This project is designed to assist you in estimating the prices of diamonds based on their attributes. Whether you're a gem enthusiast or a jeweler, our project offers a reliable way to predict diamond prices.
