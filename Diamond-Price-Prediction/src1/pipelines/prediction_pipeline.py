@@ -22,7 +22,6 @@ class PredictPipeline:
             pred=model.predict(data_scaled)
             return pred
             
-
         except Exception as e:
             logging.info("Exception occured in prediction")
             raise CustomException(e,sys)
