@@ -38,7 +38,7 @@ if st.button('Predict Price'):
     
     # Convert data to DataFrame
     final_new_data = data.get_data_as_dataframe()
-    
+    st.write("Final Data for Prediction:", final_new_data)
     # Initialize the prediction pipeline and get prediction
     predict_pipeline = PredictPipeline()
     pred = predict_pipeline.predict(final_new_data)
