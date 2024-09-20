@@ -48,7 +48,9 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
 
 def load_object(file_path):
     try:
-        print(f"Attempting to load file from: {file_path}") 
+        print(f"Current working directory: {os.getcwd()}")
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"File not found at path: {file_path}")
         with open(file_path,'rb') as file_obj:
             return pickle.load(file_obj)
     except Exception as e:
