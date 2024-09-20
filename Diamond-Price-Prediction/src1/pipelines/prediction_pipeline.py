@@ -12,8 +12,6 @@ class PredictPipeline:
     def predict(self,features):
         try:
             preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
-            print(f"Current working directory: {os.getcwd()}")
-            print(preprocessor_path)
             model_path=os.path.join('artifacts','model.pkl')
 
             preprocessor=load_object(preprocessor_path)
